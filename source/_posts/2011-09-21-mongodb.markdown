@@ -1,0 +1,44 @@
+---
+layout: post
+title: "MongoDB"
+date: 2011-09-21 14:45
+comments: true
+categories: [MongoDB, NoSQL]
+---
+
+[MongoDB][1] é um banco de dados orientado à documentos. Isso significa que ele não é 
+da mesma categoria que os bancos de dados "tradicionais", como MySQL, Postresql, Oracle etc.
+
+Basicamente, seus adeptos argumentam que o modelo orientado à documentos se encaixa melhor
+na arquitetura de sistemas Web. Uma sugestão é ler [esse artigo][5], onde o autor argumenta que para
+ele MongoDB é para os bancos de dados o que Rails é para os frameworks (e na nossa opinião, Rails é
+o melhor framework :-) )
+
+Seu uso implica em muitas coisas: flexibilidade na modelagem do sistema, principalmente
+quando ocorrem mudanças no modelo de dados, escalabilidade etc.
+
+
+
+
+Abaixo seguem alguns links, para quem deseja se aprofundar:
+
+[Introduction to MongoDB][2]
+[Scaling with MongoDB][3]
+
+[Livro do MongoDB][4] (comprei com 50% de desconto).
+Use o cupom: B2SDEAL (até o dia 27 de Setembro, para qualquer livro da O'Reilly)
+
+[MongoDB no Railscasts][6]
+
+
+P.S: Lembrando para quem ainda não sabe - não tenho a intenção de fazer artigos extensos e completos.
+O blog é mais como uma memória para mim mesmo. Aproveito e compartilho os "insights" e dicas que coleto
+pela Internet. Quem quiser, siga os links para se aprofundar.
+
+
+[1]: http://www.mongodb.org/
+[2]: http://www.youtube.com/watch?v=w5qr4sx5Vt0
+[3]: http://www.youtube.com/watch?v=dJVBs2z0Nzs&feature=relmfu
+[4]: http://shop.oreilly.com/product/0636920001096.do
+[5]: http://railstips.org/2009/12/18/why-i-think-mongo-is-to-databases-what-rails-was-to-frameworks
+[6]: http://railscasts.com/episodes?utf8=%E2%9C%93&search=mongodb

@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Solarize"
+date: 2011-10-05 17:19
+comments: true
+categories: [Esquema de cores, Solarize]
+---
+
+[Solarize][1] é uma paleta de cores que tem muitas propriedades legais que eu 
+não sei explicar direito e nem para que serve. =)
+
+Pelo que eu entendi, as cores foram escolhidas de modo a proporcionar um ótimo
+contraste, funcionando com fundo claro ou escuro etc. Enfim, a minha praia
+é computação, não sou especialista em cores (por isso mesmo instalei a paleta Solarize). =)
+
+De qualquer forma, instalei no meu vim e no meu terminal (Konsole)
+seguindo as instruções [para vim][3] e [para o console][2].
+
+Se alguém teve tanto trabalho em criar essa paleta e se eu me dei o trabalho de escrever
+um post no blog, é porque deve ser bom. Aproveitem! =)
+
+
+
+[1]: http://ethanschoonover.com/solarized "Solarize"
+[2]: https://github.com/phiggins/konsole-colors-solarized "Konsole Colors Solarized"
+[3]: https://github.com/altercation/vim-colors-solarized "Vim Colors Solarized"
