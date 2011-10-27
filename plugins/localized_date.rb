@@ -1,7 +1,7 @@
-#encoding utf-8
+#encoding: utf-8
 module LocalizedDateLiquidFilter
   
-  MESES = [nil] + %w(Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro)
+  MESES = [nil] + %w(Janeiro Fevereiro Março Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro)
   
   
   def localized_date(date)
