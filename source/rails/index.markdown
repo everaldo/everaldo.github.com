@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-Ruby on Rails
+Ruby 
 ======
 
 
