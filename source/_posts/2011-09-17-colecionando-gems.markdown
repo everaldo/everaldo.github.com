@@ -13,6 +13,8 @@ Como não gostamos de reinventar a roda (expressão utilizada para dizermos que 
 solucionar um problema computacional que já foi resolvido, e geralmente, de  forma "elegante" por outras pessoas)
 instalamos as gems para facilitar nossas vidas.
 
+<!-- more -->
+
 Assim, se você pretende construir um site, existe a gem do framework Rails. Caso deseje manipular XML e XHTML, há a gem nokogiri e assim por diante.
 
 Para instalar as gems em sua máquina, utilize o comando:

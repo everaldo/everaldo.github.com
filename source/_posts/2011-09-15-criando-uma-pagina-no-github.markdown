@@ -11,6 +11,8 @@ Hoje eu criei esta [página](http://everaldo.github.com) no [github][5]
 
 E no meu segundo post vou tentar ensinar como se cria uma página semelhante a esta.
 
+<!-- more -->
+
 Caso as minhas instruções não sejam suficientes ou venham a estar incorretas, siga os links
 das páginas em que eu me baseei:
 

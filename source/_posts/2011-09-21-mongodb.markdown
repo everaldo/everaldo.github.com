@@ -14,6 +14,8 @@ na arquitetura de sistemas Web. Uma sugestão é ler [esse artigo][5], onde o au
 ele MongoDB é para os bancos de dados o que Rails é para os frameworks (e na nossa opinião, Rails é
 o melhor framework :-) )
 
+<!-- more -->
+
 Seu uso implica em muitas coisas: flexibilidade na modelagem do sistema, principalmente
 quando ocorrem mudanças no modelo de dados, escalabilidade etc.
 

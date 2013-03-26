@@ -30,7 +30,7 @@ linguagem Ruby.
 
 
 
-[aprenda]: ruby/aprenda.html "Aprenda"
+[aprenda]: /ruby/aprenda.html "Aprenda"
 [sinatra]: http://www.sinatrarb.com/ "Sinatra"
 [padrino]: http://www.padrinorb.com/ "Padrino Ruby Web Framework"
 [renee]: http://www.reneerb.com/ "Renee is the super-friendly Rack based web framework."
