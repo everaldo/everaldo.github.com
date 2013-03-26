@@ -1,3 +1,6 @@
 [submodule ".themes/new-york"]
 	path = .themes/new-york
 	url = git://github.com/octopress-themes/new-york.git
+[submodule ".themes/bunching-bumbago"]
+	path = .themes/bunching-bumbago
+	url = git://github.com/octopress-themes/bunching-bumbago.git
