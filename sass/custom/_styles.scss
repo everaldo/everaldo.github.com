@@ -1,21 +1,2 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
-
-.code-title {
-  text-align: center;
-  font-size: 13px;
-  line-height: 2em;
-  text-shadow: darken($solar-blue,15) 0 1px 0;
-  color: #474747;
-  font-weight: normal;
-  margin-bottom: 0;
-  @include border-top-radius(5px);
-  font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
-  background: lighten($nav-bg,15) top repeat-x;
-  border: 1px solid darken($solar-blue,15);
-  border-top-color: darken($solar-blue,15);
-  border-left-color: darken($solar-blue,15);
-  border-right-color: darken($solar-blue,15);
-  border-bottom-color: darken($solar-blue,15);
-  //border-bottom: 0;
-}
