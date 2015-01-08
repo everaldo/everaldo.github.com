@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CSS | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/css/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Curso Rails Stanford]]></title>
+    <link href="http://everaldo.github.com/blog/2011/10/25/curso-rails-stanford/"/>
+    <updated>2011-10-25T00:39:00-02:00</updated>
+    <id>http://everaldo.github.com/blog/2011/10/25/curso-rails-stanford</id>
+    <content type="html"><![CDATA[<p><a href="http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=WebApplications">Open Class Room - Curso sobre Web Applications utilizando Rails</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Compass]]></title>
+    <link href="http://everaldo.github.com/blog/2011/10/24/compass/"/>
+    <updated>2011-10-24T18:49:00-02:00</updated>
+    <id>http://everaldo.github.com/blog/2011/10/24/compass</id>
+    <content type="html"><![CDATA[<p><a href="http://compass-style.org/" title="Compass">Framework CSS</a></p>
+]]></content>
+  </entry>
+  
+</feed>

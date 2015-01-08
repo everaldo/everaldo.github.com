@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tutoriais | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/tutoriais/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Primeiro Tutorial - Lista de Compras]]></title>
+    <link href="http://everaldo.github.com/blog/2013/06/11/primeiro-tutorial-lista-de-compras/"/>
+    <updated>2013-06-11T15:42:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2013/06/11/primeiro-tutorial-lista-de-compras</id>
+    <content type="html"><![CDATA[<p>Vou começar meu primeiro tutorial de Ruby on Rails no blog.
+Escolhi um aplicativo de lista de compras (de mercado).</p>
+
+<p>Nele poderemos cadastrar os produtos que queremos comprar em nossa próxima ida
+ao mercado.</p>
+
+<p>O projeto vai ter inúmeras iterações, e não tem prazo para acabar.</p>
+
+<p>O código vai ser hospedado no Github: <a href="https://github.com/everaldo/shopping_list">Shopping List</a>
+e publicado no heroku, futuramente.</p>
+
+<p>Um dos objetivos do projeto é criar uma aplicação do começo ao fim, mostrando
+as principais ferramentas e metodologias utilizadas no dia-a-dia.</p>
+
+<p>Entre outros tópicos, abordaremos:</p>
+
+<ul>
+<li>Banco não-relacional (MongoDB, com a gem mongoid)</li>
+<li>Configuração do ambiente de desenvolvimento (Vagrant)</li>
+<li>TDD e BDD (RSpec e Cucumber)</li>
+<li>Controle de versão (git)</li>
+</ul>
+
+
+<p>Aguardem novas atualizações! :)</p>
+]]></content>
+  </entry>
+  
+</feed>

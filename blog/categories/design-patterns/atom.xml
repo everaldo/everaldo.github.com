@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Design Patterns | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/design-patterns/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Object on Rails]]></title>
+    <link href="http://everaldo.github.com/blog/2012/03/15/object-on-rails/"/>
+    <updated>2012-03-15T13:52:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2012/03/15/object-on-rails</id>
+    <content type="html"><![CDATA[<p>Adicione mais um livro gratuito (você pode adquirir o PDF por 5 dólares, se desejar) à sua lista de tutoriais Rails: Object on Rails, de Avdi Grimm.</p>
+
+<!-- more -->
+
+
+<p><blockquote><p></p></p><p><p>This is the complete text of Objects on Rails, a "developer's notebook" documenting some guidelines, techniques, and ideas for applying classic object-oriented thought to Ruby on Rails applications. This book is aimed at the working Rails developer who is looking to grow and evolve Rails projects while keeping them flexible, maintainable, and robust. The focus is on pragmatic solutions which tread a "middle way" between the expedience of the Rails "golden path", and rigid OO purity.</p></p><p><p></p><footer><strong>Avdi Grimm ,</strong><cite><a href='http://objectsonrails.com/'>Object on Rails</a></cite></footer></blockquote></p>
+
+<p><a href="http://objectsonrails.com/">Object on Rails</a></p>
+]]></content>
+  </entry>
+  
+</feed>

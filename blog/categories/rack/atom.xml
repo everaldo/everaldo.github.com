@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rack | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/rack/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Uma rápida introdução ao Rack]]></title>
+    <link href="http://everaldo.github.com/blog/2011/11/01/uma-rapida-introducao-ao-rack/"/>
+    <updated>2011-11-01T15:00:00-02:00</updated>
+    <id>http://everaldo.github.com/blog/2011/11/01/uma-rapida-introducao-ao-rack</id>
+    <content type="html"><![CDATA[<p><a href="http://rack.rubyforge.org/" title="Rack">Rack</a> provê uma interface mínima entre os frameworks e webservers que suportam Ruby.</p>
+
+<p>Na última semana, a newsletter <a href="http://rubyweekly.com/" title="Ruby Weekly">Ruby Weekly</a> disponibilizou um link para um artigo
+com <a href="http://rubylearning.com/blog/a-quick-introduction-to-rack/" title="A Quick Introduction to Rack">uma rápida introdução ao Rack</a>.</p>
+
+<p><a href="http://rubylearning.com/blog/a-quick-introduction-to-rack/" title="A Quick Introduction to Rack">Uma rápida introdução ao Rack</a></p>
+]]></content>
+  </entry>
+  
+</feed>

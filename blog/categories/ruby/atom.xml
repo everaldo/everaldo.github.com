@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moneta e WebMock]]></title>
+    <link href="http://everaldo.github.com/blog/2013/07/06/moneta-e-webmock/"/>
+    <updated>2013-07-06T19:23:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2013/07/06/moneta-e-webmock</id>
+    <content type="html"><![CDATA[<p>Duas gems que vi num episódio de RubyTapas</p>
+
+<p><a href="https://github.com/minad/moneta">Moneta</a></p>
+
+<p><a href="https://github.com/bblimke/webmock">WebMock</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Utilizando Sprockets em aplicações não-Rails]]></title>
+    <link href="http://everaldo.github.com/blog/2012/03/22/utilizando-sprockets/"/>
+    <updated>2012-03-22T09:57:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2012/03/22/utilizando-sprockets</id>
+    <content type="html"><![CDATA[<p>Utilizando Sprockets, Compass e Twitter Bootstrap em Aplicações não-Rails</p>
+
+<ul>
+<li>sprockets - compressão e minificação de assets</li>
+<li>compass - framework css</li>
+<li>bootstrap - grid system + Javascript plugins</li>
+</ul>
+
+
+<p><a href="https://gist.github.com/2143990">link</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Runt - Ruby Temporal Expressions]]></title>
+    <link href="http://everaldo.github.com/blog/2012/03/15/runt-ruby-temporal-expressions/"/>
+    <updated>2012-03-15T15:36:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2012/03/15/runt-ruby-temporal-expressions</id>
+    <content type="html"><![CDATA[<p><blockquote><p></p></p><p><p>Runt is an implementation of select temporal patterns by Martin Fowler in the super-fantastic Ruby language. Runt provides:</p></p><p><ul><br/><li> ability to define recurring events using simple, set-like expressions</li><br/><li> an interfaced-based API for creating schedules for arbitrary events/objects</li><br/><li> precisioned date types using Time Points</li><br/><li> date Ranges</li><br/><li> everlasting peace and/or eternal life</li><br/></ul></p><p><br/><p></p><footer><strong>Runt</strong><cite><a href='http://runt.rubyforge.org/'>Runt RubyForge Site</a></cite></footer></blockquote></p>
+
+<p><a href="http://runt.rubyforge.org/">Runt - Ruby Temporal Expressions</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meus sites favoritos]]></title>
+    <link href="http://everaldo.github.com/blog/2012/03/15/meus-sites-favoritos/"/>
+    <updated>2012-03-15T07:35:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2012/03/15/meus-sites-favoritos</id>
+    <content type="html"><![CDATA[<p>Para ficar "antenado" nas tendências, boas práticas e notícias em geral "do mundo" da computação e do desenvolvimento
+Web temos que ficar de olho nos blogs. Nunca me acostumei a ser frequentador assíduo de sites famosos como <a href="http://slashdot.org/">SlashDot.org</a>,
+mas deixarei alguns links que podem ser úteis para quem lida com desenvolvimento Web, principalmente utilizando Ruby on Rails:</p>
+
+<ul>
+<li><a href="http://railscasts.com/">Railscasts - vídeos sobre Ruby on Rails</a></li>
+<li><a href="http://rubysource.com/">Artigos sobre Ruby, Sinatra, Rails</a></li>
+<li><a href="http://rubyweekly.com/">Ruby Weekly - lista com notícias semanais sobre Ruby e Rails</a></li>
+<li><a href="http://statuscode.org/">Status Code - lista com notícias sobre programação em geral</a></li>
+</ul>
+
+
+<p>Existem outros sites que eu visito, que não estou lembrado no momento. Mas em geral, a partir desses sites encontramos links que levarão a outros,
+e assim sucessivamente, pois essa é a natureza da Internet.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Uma rápida introdução ao Rack]]></title>
+    <link href="http://everaldo.github.com/blog/2011/11/01/uma-rapida-introducao-ao-rack/"/>
+    <updated>2011-11-01T15:00:00-02:00</updated>
+    <id>http://everaldo.github.com/blog/2011/11/01/uma-rapida-introducao-ao-rack</id>
+    <content type="html"><![CDATA[<p><a href="http://rack.rubyforge.org/" title="Rack">Rack</a> provê uma interface mínima entre os frameworks e webservers que suportam Ruby.</p>
+
+<p>Na última semana, a newsletter <a href="http://rubyweekly.com/" title="Ruby Weekly">Ruby Weekly</a> disponibilizou um link para um artigo
+com <a href="http://rubylearning.com/blog/a-quick-introduction-to-rack/" title="A Quick Introduction to Rack">uma rápida introdução ao Rack</a>.</p>
+
+<p><a href="http://rubylearning.com/blog/a-quick-introduction-to-rack/" title="A Quick Introduction to Rack">Uma rápida introdução ao Rack</a></p>
+]]></content>
+  </entry>
+  
+</feed>

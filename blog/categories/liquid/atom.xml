@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Liquid | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/liquid/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LiquidFilter para nome do mês em Português]]></title>
+    <link href="http://everaldo.github.com/blog/2011/10/27/liquidfilter-para-nome-do-mes-em-portugues/"/>
+    <updated>2011-10-27T20:12:00-02:00</updated>
+    <id>http://everaldo.github.com/blog/2011/10/27/liquidfilter-para-nome-do-mes-em-portugues</id>
+    <content type="html"><![CDATA[<p>Continuando meus experimentos, hoje fiz meu primeiro filtro para o Liquid e meu primeiro Gist.</p>
+
+<p>Esse pequeno filtro me permite mudar a data de "27th Oct 2011" para "27 de Outubro de 2011".
+É algo muito simples, mas como eu não estou utilizando nenhum framework de internacionalização
+eu não encontrei outro jeito melhor de fazer isso.</p>
+
+<p>Tentei fazer um monkeypatch em Date::MONTHNAMES, porém acusava um warning...</p>
+
+<p>Tomara que seja útil, para alguém, um dia. =)</p>
+
+<p><div><script src='https://gist.github.com/1321055.js?file='></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+]]></content>
+  </entry>
+  
+</feed>

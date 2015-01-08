@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Active Admin | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/active-admin/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Active Admin]]></title>
+    <link href="http://everaldo.github.com/blog/2011/09/17/active-admin/"/>
+    <updated>2011-09-17T21:21:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2011/09/17/active-admin</id>
+    <content type="html"><![CDATA[<p><a href="http://groups.google.com/group/rails-br/browse_thread/thread/932fe7c6a9bfd6c5/7367a53bb2886507?lnk=gst&amp;q=Gem+para+administra%C3%A7%C3%A3o#7367a53bb2886507">Esses dias no grupo do Rails-Br</a> perguntaram sobre uma gem para administração de conteúdo.</p>
+
+<p>Entre tantas sugestões, foi falado sobre o <a href="http://activeadmin.info/" title="Active Admin">Active Admin</a>.</p>
+
+<p>Entrei no site, gostei da interface e imagino que seja uma boa gem (pretendo testar em breve).</p>
+
+<p>No site, os criadores da gem definem Active Admin como:</p>
+
+<p><strong>The missing administration framework for business critical Ruby on Rails applications.
+Active Admin is a Ruby on Rails plugin for generating administration style interfaces.
+It abstracts common business application patterns to make it simple for developers to implement beautiful and elegant interfaces with very little effort.</strong></p>
+]]></content>
+  </entry>
+  
+</feed>

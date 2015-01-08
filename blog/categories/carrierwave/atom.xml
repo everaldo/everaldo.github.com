@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Carrierwave | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/carrierwave/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Upload de imagens com Carrierwave]]></title>
+    <link href="http://everaldo.github.com/blog/2011/10/31/upload-de-imagens-com-carrierwave/"/>
+    <updated>2011-10-31T21:20:00-02:00</updated>
+    <id>http://everaldo.github.com/blog/2011/10/31/upload-de-imagens-com-carrierwave</id>
+    <content type="html"><![CDATA[<p>Em minhas andanças pela Internet, encontrei na gem carrierwave a solução mais elegante, na minha opinião,
+para o upload de imagens em Ruby (Rails, Sinatra, Padrino etc.).</p>
+
+<p>Compartilho alguns links que podem ajudar quem esteja interessado, mas ainda não sabe direito onde começar:</p>
+
+<ul>
+<li><a href="http://www.engineyard.com/blog/2011/a-gentle-introduction-to-carrierwave/" title="A Gentle Introduction to Carrierwave">A Gentle Introduction to Carrierwave</a></li>
+<li><a href="https://github.com/jnicklas/carrierwave/" title="Carrierwave - Github">Carrierwave - Github</a></li>
+<li><a href="http://railscasts.com/episodes/253-carrierwave-file-uploads" title="Carrierwave - Railscast">Railscast sobre carrierwave</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Colecionando Gems - Everaldo Gomes</title>
+  <meta name="author" content="Everaldo Gomes">
+
+  
+  <meta name="description" content="Em Ruby, gems (ou gemas) são as &#8220;bibliotecas&#8221; da linguagem (como se fossem os .jars do Java).
+Elas são desenvolvidas por pessoas do mundo &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://everaldo.github.com/blog/2011/09/17/colecionando-gems/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Everaldo Gomes" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Playball" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30047137-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="/">Everaldo Gomes</a></h1>
+  
+    <h2>Desenvolvimento Web</h2>
+  
+</hgroup>
+
+</header>
+  <div id="navigation">
+    <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:everaldo.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Início</a></li>
+  <li><a href="/blog/archives">Arquivo</a></li>
+  <li><a href="/rails/index.html">Rails</a></li>
+  <li><a href="/ruby/index.html">Ruby</a></li>
+  <li><a href="/js/index.html">Javascript</a></li>
+  <li><a href="/links/index.html">Links</a></li>
+</ul>
+
+</nav>
+  </div>
+  <div id="body"  >
+    <div id="main">
+      <div id="content">
+        <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Colecionando Gems</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-17T17:13:00-03:00" pubdate data-updated="true">17 de Setembro de 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Em Ruby, gems (ou gemas) são as &#8220;bibliotecas&#8221; da linguagem (como se fossem os .jars do Java).
+Elas são desenvolvidas por pessoas do mundo todo, e em geral, estão agrupadas no site <a href="https://rubygems.org/" title="RubyGems.org">RubyGems.org</a>.</p>
+
+<p>Como não gostamos de reinventar a roda (expressão utilizada para dizermos que não faz muito sentido tentarmos
+solucionar um problema computacional que já foi resolvido, e geralmente, de  forma &#8220;elegante&#8221; por outras pessoas)
+instalamos as gems para facilitar nossas vidas.</p>
+
+<!-- more -->
+
+
+<p>Assim, se você pretende construir um site, existe a gem do framework Rails. Caso deseje manipular XML e XHTML, há a gem nokogiri e assim por diante.</p>
+
+<p>Para instalar as gems em sua máquina, utilize o comando:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>gem install &lt;nomedagem&gt;
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Sei que o sistema de gems é muito poderoso, tipo um &#8220;apt-get&#8221;. Também é recomendado utilizar um programa chamado <a href="http://beginrescueend.com/">RVM</a>, para gerenciar suas instalações
+de Ruby, seus conjuntos de gems (gemsets) etc.</p>
+
+<p>Enfim, o meu objetivo neste blog, e consequentemente neste post, não é apresentar tutoriais detalhados e 100% corretos.
+Esse site serve como um registro dos meus pensamentos e idéias. Ele é apenas um ponto de partida para quem chega aqui.
+Decidi que não valeria a pena eu gastar tanto tempo em posts detalhados, já que eu mesmo ainda tenho muito a aprender com Ruby&#8230;</p>
+
+<p>Mas voltando ao assunto, como eu sou um colecionador de Gems (seria um Gemologista?), vou deixar alguns links aqui.
+A maioria deles eu obti <a href="http://groups.google.com/group/rails-br/browse_thread/thread/4d4dd0731749b442/cac8f8c5bc525e9e?lnk=gst&amp;q=+3+gems#cac8f8c5bc525e9e">graças ao pessoal</a>, muito gente boa, da lista Rails Brasil (rails-br@googlegroups.com).</p>
+
+<p>Segue a lista das Gems. Coloquei a descrição que o pessoal mandou, e quando ela não foi fornecida, preenchi com o conteúdo do
+github (muitas gems também estão disponíveis no site do GitHub):</p>
+
+<h2>GEMS</h2>
+
+<ul>
+<li>Peneirar as gems, fica a cargo do leitor. Com o tempo escreverei minhas impressões sobre elas. Infelizmente ainda não tive tempo
+para descobrir quais são úteis ou não. Provavelmente todas sejam, porque no tópico da Lista Rails Brasil pedi para os participantes
+indicassem 3 Gems que eles achassem úteis / interessantes. Nesse post apenas compartilho a colaboração que recebi. =)</li>
+</ul>
+
+
+<p><a href="https://github.com/versapay/viewcumber">viewcumber - Cucumber formatter for easily viewing each step of your scenarios</a></p>
+
+<p><a href="https://github.com/winston/google_visualr/">google_visualr - A Ruby Gem for the Google Visualization API. Write Ruby code. Generate Javascript. Display a Google Chart</a></p>
+
+<p><a href="https://github.com/37signals/mail_view">mail_view - Visual email testing</a></p>
+
+<p><a href="https://github.com/colszowka/simplecov">simplecov - Ferramenta de cobertura de testes</a></p>
+
+<p><a href="https://github.com/lomba/schema_plus">schema_plus - Extensão do ActiveRecord que dá diversas opções pra automatizar a criação de indices nas foreigns keys e criar integridade referencial</a></p>
+
+<p><a href="https://github.com/crowdint/rails3-jquery-autocomplete">rails3-jquery-autocomplete - Permite criar facilmente inputs de autocomplete, usando JQuery&#8230;</a></p>
+
+<p><a href="https://github.com/voormedia/rails-erd">rails-erd - Generate Entity-Relationship Diagrams for Rails applications</a></p>
+
+<p><a href="https://github.com/cldwalker/hirb">hirb - A mini view framework for console/irb that&#8217;s easy to use, even while under its influence. Console goodies include a no-wrap table, auto-pager, tree and menu.</a></p>
+
+<p><a href="https://github.com/halogenandtoast/excelsior">excelsior - Ruby gem that uses C bindings to read CSV files superfast. I’m totally serial!</a></p>
+
+<p><a href="http://rubygems.org/gems/gem-open">gem-open - Possibilita abrir as gems que vc usa e estudar o codigo fonte</a></p>
+
+<p><a href="http://rubygems.org/gems/reverse_captcha">reverse_captcha - evita spam via formulario</a></p>
+
+<p><a href="http://rubygems.org/gems/rspec">rspec - BDD for Ruby</a></p>
+
+<p><a href="https://github.com/freelancing-god/thinking-sphinx">thinking-sphinx - Para realizar buscas (full-text search)</a></p>
+
+<p><a href="https://github.com/sandal/prawn">prawn - Para criação de PDF</a></p>
+
+<p><a href="https://github.com/rails/exception_notification">exception_notification - Notificação de erros via email</a></p>
+
+<p><a href="https://github.com/travis-ci/travis-ci">travis-ci integração contínua</a></p>
+
+<p><a href="https://github.com/binarylogic/settingslogic">settingslogic - A simple and straightforward settings solution that uses an ERB enabled YAML file and a singleton design pattern.</a></p>
+
+<p><a href="https://github.com/chriseppstein/compass">compass - Compass is a Stylesheet Authoring Environment that makes your website design simpler to implement and easier to maintain.</a></p>
+
+<p><a href="https://github.com/norman/friendly_id">friendly_id - FriendlyId is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.</a></p>
+
+<p><a href="https://github.com/maccman/juggernaut">juggernaut -Realtime server push with node.js, WebSockets and Comet.</a></p>
+
+<p><a href="https://github.com/leikind/wice_grid">wice_grid -A Rails grid plugin to create grids with sorting, pagination, and (automatically generated) filters.</a></p>
+
+<p><a href="https://github.com/michelson/lazy_high_charts">lazy_high_charts - Rails plugin for make highcharts a la ruby.</a></p>
+
+<p><a href="https://github.com/amatsuda/kaminari">kaminari - Paginação com jquery (alternativa ao will_paginate)</a></p>
+
+<p><a href="https://github.com/rails/jquery-rails">jquery-rails - A gem to automate using jQuery with Rails 3</a></p>
+
+<p><a href="https://github.com/stonean/slim">slim - Lightweight templating engine with support for Rails 3.</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Everaldo Gomes</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-17T17:13:00-03:00" pubdate data-updated="true">17 de Setembro de 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/gems/'>Gems</a> e <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://everaldo.github.com/blog/2011/09/17/colecionando-gems/" data-via="evegomes" data-counturl="http://everaldo.github.com/blog/2011/09/17/colecionando-gems/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/09/17/pure-template-tool-to-generate-html-from-json/" title="Previous Post: Pure: Template Tool to Generate HTML From JSON">&laquo; Pure: Template Tool to Generate HTML From JSON</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/09/17/active-admin/" title="Next Post: Active Admin">Active Admin &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Postagens Recentes</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/08/gerando-helptags-para-plugins-do-vim-instalados-com-pathogen/">Gerando Helptags para plugins do vim instalados com pathogen</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/07/17/webrtc-e-twelephone/">WebRTC e Twelephone</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/07/06/moneta-e-webmock/">Moneta e WebMock</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/11/primeiro-tutorial-lista-de-compras/">Primeiro Tutorial - Lista de Compras</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/09/yeoman/">Yeoman</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Repositórios do Github</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/everaldo">@everaldo</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'everaldo',
+            count: 3,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Últimos Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Atualizando status...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("evegomes", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/evegomes" class="twitter-follow-button" data-show-count="false">Siga @evegomes</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+      </div>
+    </div>
+    <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Everaldo Gomes -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+    
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+  </div>
+</body>
+</html>

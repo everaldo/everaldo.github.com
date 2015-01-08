@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Solarize | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/solarize/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Solarize]]></title>
+    <link href="http://everaldo.github.com/blog/2011/10/05/solarize/"/>
+    <updated>2011-10-05T17:19:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2011/10/05/solarize</id>
+    <content type="html"><![CDATA[<p><a href="http://ethanschoonover.com/solarized" title="Solarize">Solarize</a> é uma paleta de cores que tem muitas propriedades legais que eu
+não sei explicar direito e nem para que serve. =)</p>
+
+<p>Pelo que eu entendi, as cores foram escolhidas de modo a proporcionar um ótimo
+contraste, funcionando com fundo claro ou escuro etc. Enfim, a minha praia
+é computação, não sou especialista em cores (por isso mesmo instalei a paleta Solarize). =)</p>
+
+<p>De qualquer forma, instalei no meu vim e no meu terminal (Konsole)
+seguindo as instruções <a href="https://github.com/altercation/vim-colors-solarized" title="Vim Colors Solarized">para vim</a> e <a href="https://github.com/phiggins/konsole-colors-solarized" title="Konsole Colors Solarized">para o console</a>.</p>
+
+<p>Se alguém teve tanto trabalho em criar essa paleta e se eu me dei o trabalho de escrever
+um post no blog, é porque deve ser bom. Aproveitem! =)</p>
+]]></content>
+  </entry>
+  
+</feed>

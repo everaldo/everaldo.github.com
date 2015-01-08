@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: JSON | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/json/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Pure: Template Tool to Generate HTML From JSON]]></title>
+    <link href="http://everaldo.github.com/blog/2011/09/17/pure-template-tool-to-generate-html-from-json/"/>
+    <updated>2011-09-17T17:03:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2011/09/17/pure-template-tool-to-generate-html-from-json</id>
+    <content type="html"><![CDATA[<p>Hoje, por um acaso (acaso não existe ehehe), na lista do Rails Talk ouvi alguém falando sobre
+a biblioteca Pure e me interessei:
+<a href="http://beebole.com/pure/" title="Simple and ultra-fast templating tool to generate HTML from JSON data">Simple and ultra-fast templating tool to generate HTML from JSON data</a></p>
+
+<p>Eu gosto muito de "colecionar" ferramentas, nunca se sabe quando elas podem ser úteis. Por isso,
+tudo que eu achar interessante vou colocar aqui no Blog. Pode ser útil para mim ou para você. =)</p>
+]]></content>
+  </entry>
+  
+</feed>

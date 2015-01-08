@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GIT | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Aprendendo GIT]]></title>
+    <link href="http://everaldo.github.com/blog/2011/09/24/aprendendo-git/"/>
+    <updated>2011-09-24T13:28:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2011/09/24/aprendendo-git</id>
+    <content type="html"><![CDATA[<p>Para quem deseja aprender GIT, recomendo <a href="http://progit.org/">este link</a>.</p>
+
+<p>(A cada dia que passa aprendo a ser mais sucinto nos meus posts - efeito twitter :) ).</p>
+]]></content>
+  </entry>
+  
+</feed>

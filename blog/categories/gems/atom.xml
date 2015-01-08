@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gems | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/gems/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moneta e WebMock]]></title>
+    <link href="http://everaldo.github.com/blog/2013/07/06/moneta-e-webmock/"/>
+    <updated>2013-07-06T19:23:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2013/07/06/moneta-e-webmock</id>
+    <content type="html"><![CDATA[<p>Duas gems que vi num episódio de RubyTapas</p>
+
+<p><a href="https://github.com/minad/moneta">Moneta</a></p>
+
+<p><a href="https://github.com/bblimke/webmock">WebMock</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Runt - Ruby Temporal Expressions]]></title>
+    <link href="http://everaldo.github.com/blog/2012/03/15/runt-ruby-temporal-expressions/"/>
+    <updated>2012-03-15T15:36:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2012/03/15/runt-ruby-temporal-expressions</id>
+    <content type="html"><![CDATA[<p><blockquote><p></p></p><p><p>Runt is an implementation of select temporal patterns by Martin Fowler in the super-fantastic Ruby language. Runt provides:</p></p><p><ul><br/><li> ability to define recurring events using simple, set-like expressions</li><br/><li> an interfaced-based API for creating schedules for arbitrary events/objects</li><br/><li> precisioned date types using Time Points</li><br/><li> date Ranges</li><br/><li> everlasting peace and/or eternal life</li><br/></ul></p><p><br/><p></p><footer><strong>Runt</strong><cite><a href='http://runt.rubyforge.org/'>Runt RubyForge Site</a></cite></footer></blockquote></p>
+
+<p><a href="http://runt.rubyforge.org/">Runt - Ruby Temporal Expressions</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Active Admin]]></title>
+    <link href="http://everaldo.github.com/blog/2011/09/17/active-admin/"/>
+    <updated>2011-09-17T21:21:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2011/09/17/active-admin</id>
+    <content type="html"><![CDATA[<p><a href="http://groups.google.com/group/rails-br/browse_thread/thread/932fe7c6a9bfd6c5/7367a53bb2886507?lnk=gst&amp;q=Gem+para+administra%C3%A7%C3%A3o#7367a53bb2886507">Esses dias no grupo do Rails-Br</a> perguntaram sobre uma gem para administração de conteúdo.</p>
+
+<p>Entre tantas sugestões, foi falado sobre o <a href="http://activeadmin.info/" title="Active Admin">Active Admin</a>.</p>
+
+<p>Entrei no site, gostei da interface e imagino que seja uma boa gem (pretendo testar em breve).</p>
+
+<p>No site, os criadores da gem definem Active Admin como:</p>
+
+<p><strong>The missing administration framework for business critical Ruby on Rails applications.
+Active Admin is a Ruby on Rails plugin for generating administration style interfaces.
+It abstracts common business application patterns to make it simple for developers to implement beautiful and elegant interfaces with very little effort.</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Colecionando Gems]]></title>
+    <link href="http://everaldo.github.com/blog/2011/09/17/colecionando-gems/"/>
+    <updated>2011-09-17T17:13:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2011/09/17/colecionando-gems</id>
+    <content type="html"><![CDATA[<p>Em Ruby, gems (ou gemas) são as "bibliotecas" da linguagem (como se fossem os .jars do Java).
+Elas são desenvolvidas por pessoas do mundo todo, e em geral, estão agrupadas no site <a href="https://rubygems.org/" title="RubyGems.org">RubyGems.org</a>.</p>
+
+<p>Como não gostamos de reinventar a roda (expressão utilizada para dizermos que não faz muito sentido tentarmos
+solucionar um problema computacional que já foi resolvido, e geralmente, de  forma "elegante" por outras pessoas)
+instalamos as gems para facilitar nossas vidas.</p>
+
+<!-- more -->
+
+
+<p>Assim, se você pretende construir um site, existe a gem do framework Rails. Caso deseje manipular XML e XHTML, há a gem nokogiri e assim por diante.</p>
+
+<p>Para instalar as gems em sua máquina, utilize o comando:</p>
+
+<pre><code class="bash">gem install &lt;nomedagem&gt;
+</code></pre>
+
+<p>Sei que o sistema de gems é muito poderoso, tipo um "apt-get". Também é recomendado utilizar um programa chamado <a href="http://beginrescueend.com/">RVM</a>, para gerenciar suas instalações
+de Ruby, seus conjuntos de gems (gemsets) etc.</p>
+
+<p>Enfim, o meu objetivo neste blog, e consequentemente neste post, não é apresentar tutoriais detalhados e 100% corretos.
+Esse site serve como um registro dos meus pensamentos e idéias. Ele é apenas um ponto de partida para quem chega aqui.
+Decidi que não valeria a pena eu gastar tanto tempo em posts detalhados, já que eu mesmo ainda tenho muito a aprender com Ruby...</p>
+
+<p>Mas voltando ao assunto, como eu sou um colecionador de Gems (seria um Gemologista?), vou deixar alguns links aqui.
+A maioria deles eu obti <a href="http://groups.google.com/group/rails-br/browse_thread/thread/4d4dd0731749b442/cac8f8c5bc525e9e?lnk=gst&amp;q=+3+gems#cac8f8c5bc525e9e">graças ao pessoal</a>, muito gente boa, da lista Rails Brasil (rails-br@googlegroups.com).</p>
+
+<p>Segue a lista das Gems. Coloquei a descrição que o pessoal mandou, e quando ela não foi fornecida, preenchi com o conteúdo do
+github (muitas gems também estão disponíveis no site do GitHub):</p>
+
+<h2>GEMS</h2>
+
+<ul>
+<li>Peneirar as gems, fica a cargo do leitor. Com o tempo escreverei minhas impressões sobre elas. Infelizmente ainda não tive tempo
+para descobrir quais são úteis ou não. Provavelmente todas sejam, porque no tópico da Lista Rails Brasil pedi para os participantes
+indicassem 3 Gems que eles achassem úteis / interessantes. Nesse post apenas compartilho a colaboração que recebi. =)</li>
+</ul>
+
+
+<p><a href="https://github.com/versapay/viewcumber">viewcumber - Cucumber formatter for easily viewing each step of your scenarios</a></p>
+
+<p><a href="https://github.com/winston/google_visualr/">google_visualr - A Ruby Gem for the Google Visualization API. Write Ruby code. Generate Javascript. Display a Google Chart</a></p>
+
+<p><a href="https://github.com/37signals/mail_view">mail_view - Visual email testing</a></p>
+
+<p><a href="https://github.com/colszowka/simplecov">simplecov - Ferramenta de cobertura de testes</a></p>
+
+<p><a href="https://github.com/lomba/schema_plus">schema_plus - Extensão do ActiveRecord que dá diversas opções pra automatizar a criação de indices nas foreigns keys e criar integridade referencial</a></p>
+
+<p><a href="https://github.com/crowdint/rails3-jquery-autocomplete">rails3-jquery-autocomplete - Permite criar facilmente inputs de autocomplete, usando JQuery...</a></p>
+
+<p><a href="https://github.com/voormedia/rails-erd">rails-erd - Generate Entity-Relationship Diagrams for Rails applications</a></p>
+
+<p><a href="https://github.com/cldwalker/hirb">hirb - A mini view framework for console/irb that's easy to use, even while under its influence. Console goodies include a no-wrap table, auto-pager, tree and menu.</a></p>
+
+<p><a href="https://github.com/halogenandtoast/excelsior">excelsior - Ruby gem that uses C bindings to read CSV files superfast. I’m totally serial!</a></p>
+
+<p><a href="http://rubygems.org/gems/gem-open">gem-open - Possibilita abrir as gems que vc usa e estudar o codigo fonte</a></p>
+
+<p><a href="http://rubygems.org/gems/reverse_captcha">reverse_captcha - evita spam via formulario</a></p>
+
+<p><a href="http://rubygems.org/gems/rspec">rspec - BDD for Ruby</a></p>
+
+<p><a href="https://github.com/freelancing-god/thinking-sphinx">thinking-sphinx - Para realizar buscas (full-text search)</a></p>
+
+<p><a href="https://github.com/sandal/prawn">prawn - Para criação de PDF</a></p>
+
+<p><a href="https://github.com/rails/exception_notification">exception_notification - Notificação de erros via email</a></p>
+
+<p><a href="https://github.com/travis-ci/travis-ci">travis-ci integração contínua</a></p>
+
+<p><a href="https://github.com/binarylogic/settingslogic">settingslogic - A simple and straightforward settings solution that uses an ERB enabled YAML file and a singleton design pattern.</a></p>
+
+<p><a href="https://github.com/chriseppstein/compass">compass - Compass is a Stylesheet Authoring Environment that makes your website design simpler to implement and easier to maintain.</a></p>
+
+<p><a href="https://github.com/norman/friendly_id">friendly_id - FriendlyId is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.</a></p>
+
+<p><a href="https://github.com/maccman/juggernaut">juggernaut -Realtime server push with node.js, WebSockets and Comet.</a></p>
+
+<p><a href="https://github.com/leikind/wice_grid">wice_grid -A Rails grid plugin to create grids with sorting, pagination, and (automatically generated) filters.</a></p>
+
+<p><a href="https://github.com/michelson/lazy_high_charts">lazy_high_charts - Rails plugin for make highcharts a la ruby.</a></p>
+
+<p><a href="https://github.com/amatsuda/kaminari">kaminari - Paginação com jquery (alternativa ao will_paginate)</a></p>
+
+<p><a href="https://github.com/rails/jquery-rails">jquery-rails - A gem to automate using jQuery with Rails 3</a></p>
+
+<p><a href="https://github.com/stonean/slim">slim - Lightweight templating engine with support for Rails 3.</a></p>
+]]></content>
+  </entry>
+  
+</feed>

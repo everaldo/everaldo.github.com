@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: github | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Criando Uma Página No Github]]></title>
+    <link href="http://everaldo.github.com/blog/2011/09/15/criando-uma-pagina-no-github/"/>
+    <updated>2011-09-15T22:45:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2011/09/15/criando-uma-pagina-no-github</id>
+    <content type="html"><![CDATA[<p>Hoje eu criei esta <a href="http://everaldo.github.com">página</a> no <a href="http://www.github.com" title="GitHub">github</a></p>
+
+<p>E no meu segundo post vou tentar ensinar como se cria uma página semelhante a esta.</p>
+
+<!-- more -->
+
+
+<p>Caso as minhas instruções não sejam suficientes ou venham a estar incorretas, siga os links
+das páginas em que eu me baseei:</p>
+
+<ol>
+<li><a href="http://pages.github.com/" title="Pages GitHub">Pages GitHub</a></li>
+<li><a href="http://octopress.org/docs/setup/" title="Octopress Setup">Octopress Setup</a></li>
+<li><a href="http://octopress.org/docs/deploying/" title="Deploying Octopress">Octopress Deploy</a></li>
+</ol>
+
+
+<h1>Pré-requisitos</h1>
+
+<p>Para criar uma página no <a href="http://www.github.com" title="GitHub">GitHub</a> é necessário <a href="https://github.com/signup/free" title="GitHub Free Signup">criar uma conta</a> antes.
+Também é desejável que essa conta seja configurada com a sua chave pública do ssh (assumindo
+que você esteja usando Linux ou Mac, para Windows não sei como funciona).</p>
+
+<p>Esse tutorial assume que você já tem uma conta, com a chave do ssh configurada e está
+utilizando um sistema GNU/Linux com o git configurado.</p>
+
+<h1>Instruções</h1>
+
+<ol>
+<li>Crie um <a href="https://github.com/repositories/new" title="New Repository">novo repositório</a> no GitHub com o nome <strong>username</strong>.github.com ,
+onde <strong>username</strong> é o seu usuário</li>
+</ol>
+
+
+<p>Todos os arquivos que você colocar no branch <strong>master</strong> desse repositório vão aparecer
+no site <strong>username.github.com</strong>.</p>
+
+<ol>
+<li>Instalação do Octopus</li>
+</ol>
+
+
+<p>As instruções para a instalação do Octopus se encontram em <a href="http://octopress.org/docs/setup/" title="Octopress Setup">Setup</a> e <a href="http://octopress.org/docs/deploying/" title="Deploying Octopress">Deploy</a>,
+mas eu as achei meio confusas, porque para configurá-las no GitHub as instruções
+não se encontram somente em uma página. E eu estou longe de ser um expert em git.</p>
+
+<p>Se quiser economizar tempo, siga as instruções abaixo.</p>
+
+<p>Os comandos abaixo clonam o seu repositório do github e criam uma página
+inicial com o conteúdo "My GitHub Page"</p>
+
+<pre><code class="bash Hello World!">mkdir &lt;username&gt;.github.com
+cd &lt;username&gt;.github.com/
+git clone git@github.com:&lt;username&gt;/&lt;username&gt;.github.com ./
+echo "My GitHub Page" &gt; index.html
+git add .
+git commit -m "Initial commit"
+git push origin master
+</code></pre>
+
+<p>O framework Octopus permite criar um blog estiloso, cheio de opções,
+com suporte a Markdown etc. Então vamos instalá-lo.</p>
+
+<p>Ainda no mesmo diretório, digite os comandos abaixo para baixar os arquivos do octopus:</p>
+
+<pre><code class="bash Adicione o repositório do Octopus">git remote add octopress git://github.com/imathis/octopress.git
+git pull octopress master
+</code></pre>
+
+<p>Abaixo, nós vamos criar um branch chamado <strong>source</strong>. Assim, a versão "compilada" do seu site ficará
+no branch "master", enquanto que os arquivos fontes ficam no branch <strong>source</strong>.</p>
+
+<p>Ainda não tive muito tempo de explorar o Octopus, mas pelo que vi ele é feito em Ruby.</p>
+
+<pre><code class="bash Crie um Branch para o código da página">git checkout -b source
+git push origin source
+</code></pre>
+
+<p>Os comandos abaixo configuram o Octopus.</p>
+
+<pre><code class="bash Configure o Octopus">rvm rvmrc trust
+rvm reload
+gem install bundler
+gem install rake
+bundle install
+rake install
+</code></pre>
+
+<h2>Deploy da Página</h2>
+
+<p>Para fazermos o deploy do nosso site, temos que configurar o Octopus digitando o comando abaixo:</p>
+
+<pre><code class="bash Clona o repositório alvo no diretório _deploy">git clone git@github.com:&lt;username&gt;/&lt;username&gt;.github.com _deploy
+</code></pre>
+
+<p>A task (tarefa) config_deploy do Rakefile do Octopus indica que o deploy será feito no branch <strong>master</strong>.</p>
+
+<pre><code class="bash Prepara o deploy">rake config_deploy[master]
+</code></pre>
+
+<p>O comando <strong>rake generate</strong> "compila" o site.</p>
+
+<pre><code class="bash Gera o site">rake generate
+</code></pre>
+
+<p>O comando <strong>rake deploy</strong> faz o push (upload) dos arquivos contidos na pasta _deploy.</p>
+
+<pre><code class="bash Faz o Push do site gerado para o GitHub">rake deploy
+</code></pre>
+
+<h1>Conclusão e Próximos Passos</h1>
+
+<p>Para continuar com seu site siga as páginas:<a href="http://octopress.org/docs/configuring" title="Configurando Octopress">Configurando</a> e <a href="http://octopress.org/docs/blogging" title="Blogando com Octopress">Blogando</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

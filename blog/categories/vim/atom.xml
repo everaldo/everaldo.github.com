@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Vim | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Shortcutfoo]]></title>
+    <link href="http://everaldo.github.com/blog/2012/07/17/shortcutfoo/"/>
+    <updated>2012-07-17T16:09:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2012/07/17/shortcutfoo</id>
+    <content type="html"><![CDATA[<p><a href="https://www.shortcutfoo.com/">ShortcutFoo</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Screencasts: DestroyAllSoftware.com]]></title>
+    <link href="http://everaldo.github.com/blog/2012/03/15/screencasts-destroyallsoftware-dot-com/"/>
+    <updated>2012-03-15T19:00:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2012/03/15/screencasts-destroyallsoftware-dot-com</id>
+    <content type="html"><![CDATA[<p>Sempre teve vontade de se tornar um expert em vim e aprender coisas avançadas?
+Então, que tal dar uma olhada neste site:
+<a href="https://www.destroyallsoftware.com/screencasts">DestroyAllSoftware.com</a></p>
+
+<p>O lema deles é <em>"SCREENCASTS FOR SERIOUS DEVELOPERS"</em></p>
+
+<p>e a assinatura custa 9 dólares o mês, mas confira os vídeos gratuitos.</p>
+]]></content>
+  </entry>
+  
+</feed>

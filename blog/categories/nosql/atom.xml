@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: NoSQL | Everaldo Gomes]]></title>
+  <link href="http://everaldo.github.com/blog/categories/nosql/atom.xml" rel="self"/>
+  <link href="http://everaldo.github.com/"/>
+  <updated>2015-01-08T13:04:23-02:00</updated>
+  <id>http://everaldo.github.com/</id>
+  <author>
+    <name><![CDATA[Everaldo Gomes]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MongoDB]]></title>
+    <link href="http://everaldo.github.com/blog/2011/09/21/mongodb/"/>
+    <updated>2011-09-21T14:45:00-03:00</updated>
+    <id>http://everaldo.github.com/blog/2011/09/21/mongodb</id>
+    <content type="html"><![CDATA[<p><a href="http://www.mongodb.org/">MongoDB</a> é um banco de dados orientado à documentos. Isso significa que ele não é
+da mesma categoria que os bancos de dados "tradicionais", como MySQL, Postresql, Oracle etc.</p>
+
+<p>Basicamente, seus adeptos argumentam que o modelo orientado à documentos se encaixa melhor
+na arquitetura de sistemas Web. Uma sugestão é ler <a href="http://railstips.org/2009/12/18/why-i-think-mongo-is-to-databases-what-rails-was-to-frameworks">esse artigo</a>, onde o autor argumenta que para
+ele MongoDB é para os bancos de dados o que Rails é para os frameworks (e na nossa opinião, Rails é
+o melhor framework :-) )</p>
+
+<!-- more -->
+
+
+<p>Seu uso implica em muitas coisas: flexibilidade na modelagem do sistema, principalmente
+quando ocorrem mudanças no modelo de dados, escalabilidade etc.</p>
+
+<p>Abaixo seguem alguns links, para quem deseja se aprofundar:</p>
+
+<p><a href="http://www.youtube.com/watch?v=w5qr4sx5Vt0">Introduction to MongoDB</a>
+<a href="http://www.youtube.com/watch?v=dJVBs2z0Nzs&amp;feature=relmfu">Scaling with MongoDB</a></p>
+
+<p><a href="http://shop.oreilly.com/product/0636920001096.do">Livro do MongoDB</a> (comprei com 50% de desconto).
+Use o cupom: B2SDEAL (até o dia 27 de Setembro, para qualquer livro da O'Reilly)</p>
+
+<p><a href="http://railscasts.com/episodes?utf8=%E2%9C%93&amp;search=mongodb">MongoDB no Railscasts</a></p>
+
+<p>P.S: Lembrando para quem ainda não sabe - não tenho a intenção de fazer artigos extensos e completos.
+O blog é mais como uma memória para mim mesmo. Aproveito e compartilho os "insights" e dicas que coleto
+pela Internet. Quem quiser, siga os links para se aprofundar.</p>
+]]></content>
+  </entry>
+  
+</feed>
