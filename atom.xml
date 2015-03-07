@@ -4,7 +4,7 @@
   <title><![CDATA[Everaldo Gomes]]></title>
   <link href="http://everaldo.github.com/atom.xml" rel="self"/>
   <link href="http://everaldo.github.com/"/>
-  <updated>2015-01-08T13:04:23-02:00</updated>
+  <updated>2015-03-07T18:10:30-03:00</updated>
   <id>http://everaldo.github.com/</id>
   <author>
     <name><![CDATA[Everaldo Gomes]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Gerando Helptags para plugins do vim instalados com pathogen]]></title>
+    <title type="html"><![CDATA[Gerando Helptags Para Plugins Do Vim Instalados Com Pathogen]]></title>
     <link href="http://everaldo.github.com/blog/2015/01/08/gerando-helptags-para-plugins-do-vim-instalados-com-pathogen/"/>
     <updated>2015-01-08T12:51:00-02:00</updated>
     <id>http://everaldo.github.com/blog/2015/01/08/gerando-helptags-para-plugins-do-vim-instalados-com-pathogen</id>
@@ -32,7 +32,7 @@ Mas elas não vem instaladas por padrão.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[WebRTC e Twelephone]]></title>
+    <title type="html"><![CDATA[WebRTC E Twelephone]]></title>
     <link href="http://everaldo.github.com/blog/2013/07/17/webrtc-e-twelephone/"/>
     <updated>2013-07-17T19:24:00-03:00</updated>
     <id>http://everaldo.github.com/blog/2013/07/17/webrtc-e-twelephone</id>
@@ -49,7 +49,7 @@ Mas elas não vem instaladas por padrão.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Moneta e WebMock]]></title>
+    <title type="html"><![CDATA[Moneta E WebMock]]></title>
     <link href="http://everaldo.github.com/blog/2013/07/06/moneta-e-webmock/"/>
     <updated>2013-07-06T19:23:00-03:00</updated>
     <id>http://everaldo.github.com/blog/2013/07/06/moneta-e-webmock</id>
@@ -62,7 +62,7 @@ Mas elas não vem instaladas por padrão.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Primeiro Tutorial - Lista de Compras]]></title>
+    <title type="html"><![CDATA[Primeiro Tutorial - Lista De Compras]]></title>
     <link href="http://everaldo.github.com/blog/2013/06/11/primeiro-tutorial-lista-de-compras/"/>
     <updated>2013-06-11T15:42:00-03:00</updated>
     <id>http://everaldo.github.com/blog/2013/06/11/primeiro-tutorial-lista-de-compras</id>
@@ -123,7 +123,7 @@ as principais ferramentas e metodologias utilizadas no dia-a-dia.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[7 Ways to decompose fat ActiveRecord models]]></title>
+    <title type="html"><![CDATA[7 Ways to Decompose Fat ActiveRecord Models]]></title>
     <link href="http://everaldo.github.com/blog/2012/10/18/7-ways-to-decompose-fat-activerecord-models/"/>
     <updated>2012-10-18T09:50:00-03:00</updated>
     <id>http://everaldo.github.com/blog/2012/10/18/7-ways-to-decompose-fat-activerecord-models</id>
@@ -151,7 +151,7 @@ as principais ferramentas e metodologias utilizadas no dia-a-dia.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Link - Para de validar seus e-mails com expressões regulares]]></title>
+    <title type="html"><![CDATA[Link - Para De Validar Seus E-mails Com Expressões Regulares]]></title>
     <link href="http://everaldo.github.com/blog/2012/09/13/link-para-de-validar-seus-e-mails-com-expressoes-regulares/"/>
     <updated>2012-09-13T11:50:00-03:00</updated>
     <id>http://everaldo.github.com/blog/2012/09/13/link-para-de-validar-seus-e-mails-com-expressoes-regulares</id>
@@ -162,7 +162,7 @@ as principais ferramentas e metodologias utilizadas no dia-a-dia.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Learning to love forms]]></title>
+    <title type="html"><![CDATA[Learning to Love Forms]]></title>
     <link href="http://everaldo.github.com/blog/2012/09/07/learning-to-love-forms/"/>
     <updated>2012-09-07T17:45:00-03:00</updated>
     <id>http://everaldo.github.com/blog/2012/09/07/learning-to-love-forms</id>
@@ -183,7 +183,7 @@ as principais ferramentas e metodologias utilizadas no dia-a-dia.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Utilizando Sprockets em aplicações não-Rails]]></title>
+    <title type="html"><![CDATA[Utilizando Sprockets Em Aplicações não-Rails]]></title>
     <link href="http://everaldo.github.com/blog/2012/03/22/utilizando-sprockets/"/>
     <updated>2012-03-22T09:57:00-03:00</updated>
     <id>http://everaldo.github.com/blog/2012/03/22/utilizando-sprockets</id>
@@ -268,7 +268,7 @@ Então, que tal dar uma olhada neste site:
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[jsFiddle e CoffeeScript]]></title>
+    <title type="html"><![CDATA[jsFiddle E CoffeeScript]]></title>
     <link href="http://everaldo.github.com/blog/2012/03/15/jsfiddle-e-coffeescript/"/>
     <updated>2012-03-15T08:45:00-03:00</updated>
     <id>http://everaldo.github.com/blog/2012/03/15/jsfiddle-e-coffeescript</id>
