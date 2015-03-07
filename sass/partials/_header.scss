@@ -1,19 +1,10 @@
-body > header {
-  background: $header-bg;
-  text-align: center;
-  h1 {
-    font-family: 'Playball', cursive;
-    font-size: 48px;
-    margin-bottom: 6px;
-    a, a:visited, a:hover {
-      color: $title_color;
-      text-decoration: none;
+header[role=banner] .navbar {
+    /* fix email / rss icon for bootstrap navbar */
+    li img {
+        height: 18px;
     }
-  }
-  h2 {
-    @extend .sans;
-    font-size: 16px;
-    color: $subtitle-color;
-    font-weight: normal;
-  }
+    a.subscribe-rss, a.subscribe-email {
+        padding-top: 0.9em;
+        padding-bottom: 0.9em;
+    }
 }
